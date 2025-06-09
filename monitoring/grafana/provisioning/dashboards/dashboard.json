@@ -18,13 +18,13 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 5,
+  "id": 1,
   "links": [],
   "panels": [
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "feoed4w5hsrnkc"
+        "uid": "PBFA97CFB590B2093"
       },
       "fieldConfig": {
         "defaults": {
@@ -136,5 +136,5 @@
   "timezone": "browser",
   "title": "NginxRequests",
   "uid": "0c70c38b-a457-4fee-9e99-38d588b7f042",
-  "version": 2
+  "version": 1
 }
