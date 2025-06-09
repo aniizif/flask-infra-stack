@@ -7,4 +7,4 @@ CREATE TABLE test_table (
 	message TEXT NOT NULL
 );
 
-INSERT INTO test_table (message) VALUES ("Hello from init.sql");
+INSERT INTO test_table (message) VALUES ('Hello from init.sql');
