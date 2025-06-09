@@ -20,22 +20,22 @@
 
 ### 1. Клонируйте репозиторий:
 
-   ```bash
-   git clone https://github.com/yourusername/flask-monitoring-project.git
-   cd flask-monitoring-project
-   ```
+```bash
+git clone https://github.com/yourusername/flask-monitoring-project.git
+cd flask-monitoring-project
+```
 
 ### 2. Создайте файл .env в корне проекта и укажите секреты:
 
-    ```env
-    POSTGRES_PASSWORD=<your_password_here>
-    ```
+```env
+POSTGRES_PASSWORD=<your_password_here>
+```
 
 ### 3. Запустите контейнеры:
 
-    ```bash
-    docker-compose --env-file=<path_to_env_file> up --build
-    ```
+```bash
+docker-compose --env-file=<path_to_env_file> up --build
+```
 
 ## Доступы
 
